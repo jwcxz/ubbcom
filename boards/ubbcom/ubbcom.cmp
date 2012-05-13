@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2012-03-17 BZR 3466)-stable date = Sun 13 May 2012 06:40:16 AM EDT
+
+BeginCmp
+TimeStamp = /4FAF7BB3;
+Reference = C1;
+ValeurCmp = 10nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7BC2;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7BD1;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF8053;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7BE0;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7C0D;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7C1C;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7BA4;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF87D9;
+Reference = PCTS1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF87EE;
+Reference = PDCD1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF87E7;
+Reference = PDCR1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF87DF;
+Reference = PDTR1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF890E;
+Reference = PGND1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF87F5;
+Reference = PRI1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF87D2;
+Reference = PRTS1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF8640;
+Reference = PRXD1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF85C8;
+Reference = PTXD1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7B95;
+Reference = PUSB1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF8880;
+Reference = PVCC1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7BEF;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7C3A;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7C2B;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAF7BFE;
+Reference = U1;
+ValeurCmp = FT232RL;
+IdModule  = SSOP28;
+EndCmp
+
+EndListe
