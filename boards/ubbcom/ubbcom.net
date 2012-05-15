@@ -1,338 +1,247 @@
-(export (version D)
-  (design
-    (source /home/j/projects/ubbcom/boards/ubbcom/ubbcom.sch)
-    (date "Sun 13 May 2012 06:45:46 AM EDT")
-    (tool "eeschema (2012-03-17 BZR 3466)-stable"))
-  (components
-    (comp (ref PUSB1)
-      (value CONN_4)
-      (footprint SIL-4)
-      (libsource (lib conn) (part CONN_4))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7B95))
-    (comp (ref FB1)
-      (value FILTER)
-      (footprint SM0603)
-      (libsource (lib device) (part FILTER))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7BA4))
-    (comp (ref C1)
-      (value 10nF)
-      (footprint SM0805)
-      (libsource (lib device) (part C))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7BB3))
-    (comp (ref C2)
-      (value 0.1uF)
-      (footprint SM0805)
-      (libsource (lib device) (part C))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7BC2))
-    (comp (ref C3)
-      (value 4.7uF)
-      (footprint SM0805)
-      (libsource (lib device) (part C))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7BD1))
-    (comp (ref D1)
-      (value LED)
-      (footprint LED-1206)
-      (libsource (lib device) (part LED))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7BE0))
-    (comp (ref R1)
-      (value 1K)
-      (footprint SM0805)
-      (libsource (lib device) (part R))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7BEF))
-    (comp (ref U1)
-      (value FT232RL)
-      (footprint SSOP28)
-      (libsource (lib interface) (part FT232RL))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7BFE))
-    (comp (ref D2)
-      (value LED)
-      (footprint LED-1206)
-      (libsource (lib device) (part LED))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7C0D))
-    (comp (ref D3)
-      (value LED)
-      (footprint LED-1206)
-      (libsource (lib device) (part LED))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7C1C))
-    (comp (ref R3)
-      (value 1K)
-      (footprint SM0805)
-      (libsource (lib device) (part R))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7C2B))
-    (comp (ref R2)
-      (value 1K)
-      (footprint SM0805)
-      (libsource (lib device) (part R))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF7C3A))
-    (comp (ref C4)
-      (value 0.1uF)
-      (footprint SM0603)
-      (libsource (lib device) (part C))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF8053))
-    (comp (ref PTXD1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF85C8))
-    (comp (ref PRXD1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF8640))
-    (comp (ref PRTS1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF87D2))
-    (comp (ref PCTS1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF87D9))
-    (comp (ref PDTR1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF87DF))
-    (comp (ref PDCR1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF87E7))
-    (comp (ref PDCD1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF87EE))
-    (comp (ref PRI1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF87F5))
-    (comp (ref PVCC1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF8880))
-    (comp (ref PGND1)
-      (value CONN_1)
-      (footprint SIL-1)
-      (libsource (lib conn) (part CONN_1))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 4FAF890E)))
-  (libparts
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part FILTER)
-      (description "Filtre EMI")
-      (fields
-        (field (name Reference) FB)
-        (field (name Value) FILTER))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistance)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib conn) (part CONN_1)
-      (description "1 pin")
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_1))
-      (pins
-        (pin (num 1) (name 1) (type passive))))
-    (libpart (lib conn) (part CONN_4)
-      (description "Symbole general de connecteur")
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_4))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))))
-    (libpart (lib interface) (part FT232RL)
-      (description "USB to serial interface")
-      (fields
-        (field (name Reference) U)
-        (field (name Value) FT232RL))
-      (pins
-        (pin (num 1) (name TXD) (type output))
-        (pin (num 2) (name DTR) (type output))
-        (pin (num 3) (name RTS) (type output))
-        (pin (num 4) (name VCCIO) (type input))
-        (pin (num 5) (name RXD) (type input))
-        (pin (num 6) (name RI) (type input))
-        (pin (num 7) (name GND) (type power_in))
-        (pin (num 9) (name DCR) (type input))
-        (pin (num 10) (name DCD) (type input))
-        (pin (num 11) (name CTS) (type input))
-        (pin (num 12) (name CBUS4) (type BiDi))
-        (pin (num 13) (name CBUS2) (type BiDi))
-        (pin (num 14) (name CBUS3) (type BiDi))
-        (pin (num 15) (name USBD+) (type BiDi))
-        (pin (num 16) (name USBD-) (type BiDi))
-        (pin (num 17) (name 3V3OUT) (type input))
-        (pin (num 18) (name GND) (type power_in))
-        (pin (num 19) (name RESET) (type input))
-        (pin (num 20) (name VCC) (type power_in))
-        (pin (num 21) (name GND) (type power_in))
-        (pin (num 22) (name CBUS1) (type output))
-        (pin (num 23) (name CBUS0) (type BiDi))
-        (pin (num 25) (name AGND) (type power_in))
-        (pin (num 26) (name TEST) (type power_in))
-        (pin (num 27) (name OSCI) (type input))
-        (pin (num 28) (name OSCO) (type output)))))
-  (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical interface)
-      (uri /usr/share/kicad/library/interface.lib)))
-  (nets
-    (net (code 1) (name "")
-      (node (ref C1) (pin 1))
-      (node (ref PUSB1) (pin 1))
-      (node (ref FB1) (pin 1)))
-    (net (code 2) (name "")
-      (node (ref C4) (pin 1))
-      (node (ref U1) (pin 17)))
-    (net (code 3) (name "")
-      (node (ref U1) (pin 23))
-      (node (ref D2) (pin 2)))
-    (net (code 4) (name "")
-      (node (ref PUSB1) (pin 3))
-      (node (ref U1) (pin 15)))
-    (net (code 5) (name "")
-      (node (ref PDCD1) (pin 1))
-      (node (ref U1) (pin 10)))
-    (net (code 6) (name "")
-      (node (ref U1) (pin 6))
-      (node (ref PRI1) (pin 1)))
-    (net (code 7) (name "")
-      (node (ref PUSB1) (pin 2))
-      (node (ref U1) (pin 16)))
-    (net (code 8) (name "")
-      (node (ref U1) (pin 11))
-      (node (ref PCTS1) (pin 1)))
-    (net (code 9) (name "")
-      (node (ref PTXD1) (pin 1))
-      (node (ref U1) (pin 1)))
-    (net (code 10) (name "")
-      (node (ref PRXD1) (pin 1))
-      (node (ref U1) (pin 5)))
-    (net (code 11) (name "")
-      (node (ref U1) (pin 3))
-      (node (ref PRTS1) (pin 1)))
-    (net (code 12) (name "")
-      (node (ref PDTR1) (pin 1))
-      (node (ref U1) (pin 2)))
-    (net (code 13) (name "")
-      (node (ref PDCR1) (pin 1))
-      (node (ref U1) (pin 9)))
-    (net (code 14) (name "")
-      (node (ref R1) (pin 1))
-      (node (ref D1) (pin 1)))
-    (net (code 15) (name "")
-      (node (ref D3) (pin 2))
-      (node (ref U1) (pin 22)))
-    (net (code 16) (name "")
-      (node (ref D2) (pin 1))
-      (node (ref R3) (pin 1)))
-    (net (code 17) (name "")
-      (node (ref D3) (pin 1))
-      (node (ref R2) (pin 1)))
-    (net (code 18) (name GND)
-      (node (ref C1) (pin 2))
-      (node (ref C4) (pin 2))
-      (node (ref U1) (pin 21))
-      (node (ref C2) (pin 2))
-      (node (ref D1) (pin 2))
-      (node (ref PUSB1) (pin 4))
-      (node (ref U1) (pin 25))
-      (node (ref C3) (pin 2))
-      (node (ref U1) (pin 7))
-      (node (ref PGND1) (pin 1))
-      (node (ref U1) (pin 18))
-      (node (ref U1) (pin 26)))
-    (net (code 19) (name "")
-      (node (ref U1) (pin 12)))
-    (net (code 20) (name "")
-      (node (ref U1) (pin 13)))
-    (net (code 21) (name "")
-      (node (ref U1) (pin 14)))
-    (net (code 22) (name "")
-      (node (ref U1) (pin 27)))
-    (net (code 23) (name "")
-      (node (ref U1) (pin 28)))
-    (net (code 24) (name "")
-      (node (ref U1) (pin 19)))
-    (net (code 25) (name VCC)
-      (node (ref R3) (pin 2))
-      (node (ref R2) (pin 2))
-      (node (ref PVCC1) (pin 1))
-      (node (ref U1) (pin 4))
-      (node (ref U1) (pin 20))
-      (node (ref FB1) (pin 2))
-      (node (ref C2) (pin 1))
-      (node (ref C3) (pin 1))
-      (node (ref R1) (pin 2)))))
+# EESchema Netlist Version 1.1 created  Tue 15 May 2012 01:46:31 AM EDT
+(
+ ( /4FAF7B95 SIL-4  PUSB1 CONN_4 {Lib=CONN_4}
+  (    1 N-000008 )
+  (    2 N-000011 )
+  (    3 N-000006 )
+  (    4 GND )
+ )
+ ( /4FAF7BA4 SM0603  FB1 FILTER {Lib=FILTER}
+  (    1 N-000008 )
+  (    2 VCC )
+ )
+ ( /4FAF7BB3 SM0805  C1 10nF {Lib=C}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /4FAF7BC2 SM0805  C2 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4FAF7BD1 SM0805  C3 4.7uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4FAF7BE0 LED-1206  D1 LED {Lib=LED}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /4FAF7BEF SM0805  R1 1K {Lib=R}
+  (    1 N-000012 )
+  (    2 VCC )
+ )
+ ( /4FAF7BFE SSOP28  U1 FT232RL {Lib=FT232RL}
+  (    1 N-000013 )
+  (    2 N-000010 )
+  (    3 ? )
+  (    4 VCC )
+  (    5 N-000014 )
+  (    6 ? )
+  (    7 GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 N-000009 )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 N-000006 )
+  (   16 N-000011 )
+  (   17 N-000001 )
+  (   18 GND )
+  (   19 ? )
+  (   20 VCC )
+  (   21 GND )
+  (   22 N-000004 )
+  (   23 N-000003 )
+  (   25 GND )
+  (   26 GND )
+  (   27 ? )
+  (   28 ? )
+ )
+ ( /4FAF7C0D LED-1206  D2 LED {Lib=LED}
+  (    1 N-000005 )
+  (    2 N-000003 )
+ )
+ ( /4FAF7C1C LED-1206  D3 LED {Lib=LED}
+  (    1 N-000007 )
+  (    2 N-000004 )
+ )
+ ( /4FAF7C2B SM0805  R3 1K {Lib=R}
+  (    1 N-000005 )
+  (    2 VCC )
+ )
+ ( /4FAF7C3A SM0805  R2 1K {Lib=R}
+  (    1 N-000007 )
+  (    2 VCC )
+ )
+ ( /4FAF8053 SM0603  C4 0.1uF {Lib=C}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( /4FAF85C8 SIL-1  PTXD1 CONN_1 {Lib=CONN_1}
+  (    1 N-000013 )
+ )
+ ( /4FAF8640 SIL-1  PRXD1 CONN_1 {Lib=CONN_1}
+  (    1 N-000014 )
+ )
+ ( /4FAF87D9 SIL-1  PCTS1 CONN_1 {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /4FAF87DF SIL-1  PDTR1 CONN_1 {Lib=CONN_1}
+  (    1 N-000010 )
+ )
+ ( /4FAF8880 SIL-1  PVCC1 CONN_1 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /4FAF890E SIL-1  PGND1 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4FB1EF10 SparkFun-USB-A-PCB  J1 USBPCB {Lib=USBPCB}
+  (   5V N-000008 )
+  (  GND GND )
+  ( USBm N-000011 )
+  ( USBp N-000006 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ C4 1
+ U1 17
+Net 2 "GND" "GND"
+ U1 7
+ PUSB1 4
+ C4 2
+ U1 18
+ J1 GND
+ PGND1 1
+ U1 25
+ D1 2
+ C3 2
+ U1 26
+ C1 2
+ U1 21
+ C2 2
+Net 3 "" ""
+ D2 2
+ U1 23
+Net 4 "" ""
+ D3 2
+ U1 22
+Net 5 "" ""
+ D2 1
+ R3 1
+Net 6 "" ""
+ PUSB1 3
+ U1 15
+ J1 USBp
+Net 7 "" ""
+ R2 1
+ D3 1
+Net 8 "" ""
+ C1 1
+ FB1 1
+ PUSB1 1
+ J1 5V
+Net 9 "" ""
+ PCTS1 1
+ U1 11
+Net 10 "" ""
+ U1 2
+ PDTR1 1
+Net 11 "" ""
+ U1 16
+ PUSB1 2
+ J1 USBm
+Net 12 "" ""
+ D1 1
+ R1 1
+Net 13 "" ""
+ U1 1
+ PTXD1 1
+Net 14 "" ""
+ U1 5
+ PRXD1 1
+Net 25 "VCC" "VCC"
+ R3 2
+ R2 2
+ U1 4
+ U1 20
+ FB1 2
+ C2 1
+ C3 1
+ R1 2
+ PVCC1 1
+}
+#End

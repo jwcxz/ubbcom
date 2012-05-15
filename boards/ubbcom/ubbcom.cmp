@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-03-17 BZR 3466)-stable date = Sun 13 May 2012 06:40:16 AM EDT
+Cmp-Mod V01 Created by CvPcb (2012-03-17 BZR 3466)-stable date = Tue 15 May 2012 01:45:22 AM EDT
 
 BeginCmp
 TimeStamp = /4FAF7BB3;
@@ -54,6 +54,13 @@ TimeStamp = /4FAF7BA4;
 Reference = FB1;
 ValeurCmp = FILTER;
 IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB1EF10;
+Reference = J1;
+ValeurCmp = USBPCB;
+IdModule  = SparkFun-USB-A-PCB;
 EndCmp
 
 BeginCmp

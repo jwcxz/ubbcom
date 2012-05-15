@@ -1,0 +1,31 @@
+# EESchema Netlist Version 1.1 created  Mon 14 May 2012 08:27:00 AM EDT
+(
+ ( /4FB0F80C SIL-4  P1 CONN_4 {Lib=CONN_4}
+  (    1 N-000004 )
+  (    2 N-000001 )
+  (    3 N-000002 )
+  (    4 N-000003 )
+ )
+ ( /4FB0F8D1 SparkFun-USB-A-PCB  J1 USBPCB {Lib=USBPCB}
+  (   5V N-000004 )
+  (  GND N-000003 )
+  ( USBm N-000001 )
+  ( USBp N-000002 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ P1 2
+ J1 USBm
+Net 2 "" ""
+ J1 USBp
+ P1 3
+Net 3 "" ""
+ J1 GND
+ P1 4
+Net 4 "" ""
+ P1 1
+ J1 5V
+}
+#End

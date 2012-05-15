@@ -1,0 +1,238 @@
+PCBNEW-BOARD Version 1 date Mon 14 May 2012 08:36:56 AM EDT
+
+# Created by Pcbnew(2012-03-17 BZR 3466)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+VisibleLayers 1FFFFFFF
+Links 4
+NoConn 0
+Di 41481 21617 51517 27583
+Ndraw 4
+Ntrack 12
+Nzone 0
+BoardThickness 630
+Nmodule 2
+Nnets 5
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A3 16535 11700
+Title ""
+Date "14 may 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 400
+TrackClearence 100
+ZoneClearence 200
+TrackMinWidth 100
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 750 750
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+VisibleElements FFFFFFBF
+PcbPlotParams (pcbplotparams (layerselection 32768) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 2) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "N-000001"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "N-000002"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "N-000003"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "N-000004"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 400
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+AddNet "N-000001"
+AddNet "N-000002"
+AddNet "N-000003"
+AddNet "N-000004"
+$EndNCLASS
+$MODULE SIL-4
+Po 48800 24700 900 15 4FB0FC62 4FB0F87C ~~
+Li SIL-4
+Cd Connecteur 4 pibs
+Kw CONN DEV
+Sc 4FB0F87C
+AR /4FB0F80C
+Op 0 0 0
+T0 0 -1000 683 428 900 107 N V 21 N "P1"
+T1 0 -1000 600 400 900 100 N I 21 N "CONN_4"
+DS -2000 -500 -2000 -500 120 21
+DS -2000 500 -2000 -500 120 21
+DS -2000 -500 -2000 -500 120 21
+DS -2000 -500 2000 -500 120 21
+DS 2000 -500 2000 500 120 21
+DS 2000 500 -2000 500 120 21
+DS -1000 500 -1000 -500 120 21
+$PAD
+Sh "1" R 750 750 0 0 900
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 4 "N-000004"
+Po -1500 0
+$EndPAD
+$PAD
+Sh "2" C 750 750 0 0 900
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "N-000001"
+Po -500 0
+$EndPAD
+$PAD
+Sh "3" C 750 750 0 0 900
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 2 "N-000002"
+Po 500 0
+$EndPAD
+$PAD
+Sh "4" C 750 750 0 0 900
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 3 "N-000003"
+Po 1500 0
+$EndPAD
+$EndMODULE  SIL-4
+$MODULE SparkFun-USB-A-PCB
+Po 43600 24600 0 15 4FB0FA95 4FB0F87B ~~
+Li SparkFun-USB-A-PCB
+Sc 4FB0F87B
+AR /4FB0F8D1
+Op 0 0 0
+At SMD 
+T0 -100 -2080 160 160 0 35 N V 21 N "J1"
+T1 -20 1920 160 160 0 35 N V 21 N "USBPCB"
+DS -1968 -2362 1456 -2362 50 21
+DS 1456 -2362 1456 2362 50 21
+DS 1456 2362 -1968 2362 50 21
+DS -1968 2362 -1968 -2362 50 21
+$PAD
+Sh "5V" R 2952 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "N-000004"
+Po -78 1377
+$EndPAD
+$PAD
+Sh "GND" R 2952 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "N-000003"
+Po -78 -1377
+$EndPAD
+$PAD
+Sh "USBm" R 2559 393 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "N-000001"
+Po 118 393
+$EndPAD
+$PAD
+Sh "USBp" R 2559 393 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "N-000002"
+Po 118 -393
+$EndPAD
+$EndMODULE  SparkFun-USB-A-PCB
+$TEXTPCB
+Te "VCC"
+Po 50600 26200 600 800 120 0
+De 15 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "D-"
+Po 50300 25200 600 800 120 0
+De 15 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "D+"
+Po 50300 24200 600 800 120 0
+De 15 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "GND"
+Po 50500 23200 600 800 120 0
+De 15 1 0 Normal C
+$EndTEXTPCB
+$TRACK
+Po 0 48800 25200 46500 25200 400 -1
+De 15 0 1 0 400000
+Po 0 46293 24993 43718 24993 400 -1
+De 15 0 1 4FB0FB4D 800000
+Po 0 46500 25200 46293 24993 400 -1
+De 15 0 1 4FB0FB4C 0
+Po 0 43718 24207 48793 24207 400 -1
+De 15 0 2 0 C00000
+Po 0 48793 24207 48800 24200 400 -1
+De 15 0 2 4FB0FB50 C00000
+Po 0 43725 24200 43718 24207 400 -1
+De 15 0 2 4FB0FADC 0
+Po 0 43522 23223 48777 23223 400 -1
+De 15 0 3 0 C00000
+Po 0 48777 23223 48800 23200 400 -1
+De 15 0 3 4FB0FB53 C00000
+Po 0 43522 25977 43599 25900 400 -1
+De 15 0 4 0 C00000
+Po 0 46300 26200 48800 26200 400 -1
+De 15 0 4 4FB0FB48 800000
+Po 0 46000 25900 46300 26200 400 -1
+De 15 0 4 4FB0FB46 0
+Po 0 43599 25900 46000 25900 400 -1
+De 15 0 4 4FB0FB42 400000
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
