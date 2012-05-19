@@ -1,0 +1,140 @@
+# EESchema Netlist Version 1.1 created  Sat 19 May 2012 05:55:16 PM EDT
+(
+ ( /4FB3D50F $noname  U1 MAX232 {Lib=MAX232}
+  (    1 N-000002 )
+  (    2 N-000004 )
+  (    3 N-000001 )
+  (    4 N-000005 )
+  (    5 N-000012 )
+  (    6 N-000003 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 N-000008 )
+  (   12 N-000009 )
+  (   13 N-000011 )
+  (   14 N-000010 )
+  (   15 GND )
+  (   16 VCC )
+ )
+ ( /4FB3D56D $noname  C5 1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4FB3D57C $noname  C3 1uF {Lib=C}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /4FB3D5C5 $noname  C4 1uF {Lib=C}
+  (    1 GND )
+  (    2 N-000003 )
+ )
+ ( /4FB3D600 $noname  C1 1uF {Lib=C}
+  (    1 N-000002 )
+  (    2 N-000001 )
+ )
+ ( /4FB3D60F $noname  C2 1uF {Lib=C}
+  (    1 N-000005 )
+  (    2 N-000012 )
+ )
+ ( /4FB3D6DB $noname  J1 DB9 {Lib=DB9}
+  (    1 ? )
+  (    2 N-000010 )
+  (    3 N-000011 )
+  (    4 ? )
+  (    5 GND )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+ )
+ ( /4FB8171C $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000008 )
+ )
+ ( /4FB8172B $noname  P4 CONN_1 {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /4FB8173A $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4FB81749 $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component J1
+ DB9*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ C1 2
+ U1 3
+Net 2 "" ""
+ U1 1
+ C1 1
+Net 3 "" ""
+ U1 6
+ C4 2
+Net 4 "" ""
+ C3 1
+ U1 2
+Net 5 "" ""
+ U1 4
+ C2 1
+Net 6 "GND" "GND"
+ U1 15
+ J1 5
+ C4 1
+ C3 2
+ C5 2
+ P1 1
+Net 7 "VCC" "VCC"
+ U1 16
+ C5 1
+ P3 1
+Net 8 "" ""
+ U1 11
+ P2 1
+Net 9 "" ""
+ P4 1
+ U1 12
+Net 10 "" ""
+ U1 14
+ J1 2
+Net 11 "" ""
+ J1 3
+ U1 13
+Net 12 "" ""
+ C2 2
+ U1 5
+}
+#End

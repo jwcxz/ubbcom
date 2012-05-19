@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2012-03-17 BZR 3466)-stable date = Sat 19 May 2012 06:00:25 PM EDT
+
+BeginCmp
+TimeStamp = /4FB3D600;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB3D60F;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB3D57C;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB3D5C5;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB3D56D;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB3D6DB;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB8173A;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB8171C;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB81749;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB8172B;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB3D50F;
+Reference = U1;
+ValeurCmp = MAX232;
+IdModule  = DIP-16__300;
+EndCmp
+
+EndListe
