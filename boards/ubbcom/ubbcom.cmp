@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-03-17 BZR 3466)-stable date = Tue 15 May 2012 01:45:22 AM EDT
+Cmp-Mod V01 Created by CvPcb (2012-03-17 BZR 3466)-stable date = Sun 01 Jul 2012 01:30:58 PM EDT
 
 BeginCmp
 TimeStamp = /4FAF7BB3;
@@ -71,20 +71,6 @@ IdModule  = SIL-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FAF87EE;
-Reference = PDCD1;
-ValeurCmp = CONN_1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FAF87E7;
-Reference = PDCR1;
-ValeurCmp = CONN_1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FAF87DF;
 Reference = PDTR1;
 ValeurCmp = CONN_1;
@@ -99,14 +85,7 @@ IdModule  = SIL-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FAF87F5;
-Reference = PRI1;
-ValeurCmp = CONN_1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FAF87D2;
+TimeStamp = /4FF08721;
 Reference = PRTS1;
 ValeurCmp = CONN_1;
 IdModule  = SIL-1;
@@ -122,6 +101,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4FAF85C8;
 Reference = PTXD1;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF088B4;
+Reference = PTXDEN1;
 ValeurCmp = CONN_1;
 IdModule  = SIL-1;
 EndCmp

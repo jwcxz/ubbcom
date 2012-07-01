@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 15 May 2012 01:46:11 AM EDT
+EESchema Schematic File Version 2  date Sun 01 Jul 2012 02:29:22 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 may 2012"
+Date "1 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -267,7 +267,7 @@ F 0 "PDTR1" H 6630 2500 40  0000 L CNN
 F 1 "CONN_1" H 6550 2555 30  0001 C CNN
 F 2 "SIL-1" H 6550 2655 30  0001 C CNN
 	1    6550 2500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_1 PVCC1
@@ -299,6 +299,26 @@ F 2 "SparkFun-USB-A-PCB" H 2050 1800 50  0001 C CNN
 	1    1950 2000
 	0    1    -1   0   
 $EndComp
+$Comp
+L CONN_1 PRTS1
+U 1 1 4FF08721
+P 6550 2300
+F 0 "PRTS1" H 6630 2300 40  0000 L CNN
+F 1 "CONN_1" H 6550 2355 30  0001 C CNN
+F 2 "SIL-1" H 6550 2455 30  0001 C CNN
+	1    6550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 PTXDEN1
+U 1 1 4FF088B4
+P 6550 2600
+F 0 "PTXDEN1" H 6630 2600 40  0000 L CNN
+F 1 "CONN_1" H 6550 2655 30  0001 C CNN
+F 2 "SIL-1" H 6550 2755 30  0001 C CNN
+	1    6550 2600
+	1    0    0    1   
+$EndComp
 Wire Wire Line
 	2650 2200 1850 2200
 Wire Wire Line
@@ -316,19 +336,19 @@ Wire Wire Line
 Wire Wire Line
 	4300 2150 4100 2150
 Wire Wire Line
-	4100 2050 4100 2200
+	4100 2200 4100 2050
 Connection ~ 4300 2150
 Wire Wire Line
-	4100 2200 3350 2200
+	3350 2200 4100 2200
 Connection ~ 4100 2150
 Wire Wire Line
 	2550 2200 2550 2550
 Connection ~ 2550 2200
 Connection ~ 2550 2200
 Wire Wire Line
-	2400 2950 2400 2500
+	2400 2500 2400 2950
 Wire Wire Line
-	2400 2950 3750 2950
+	3750 2950 2400 2950
 Wire Wire Line
 	3450 2200 3450 2550
 Connection ~ 3450 2200
@@ -404,9 +424,17 @@ Wire Wire Line
 Wire Wire Line
 	1950 2100 1950 2500
 Wire Wire Line
-	2400 2500 1850 2500
+	1850 2500 2400 2500
 Connection ~ 2050 2200
 Connection ~ 2150 2300
 Connection ~ 2250 2400
 Connection ~ 1950 2500
+Wire Wire Line
+	6150 2300 6400 2300
+Wire Wire Line
+	6150 3100 6300 3100
+Wire Wire Line
+	6300 3100 6300 2600
+Wire Wire Line
+	6300 2600 6400 2600
 $EndSCHEMATC
