@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 01 Jul 2012 02:29:22 PM EDT
+EESchema Schematic File Version 2  date Fri 06 Jul 2012 05:03:35 AM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "1 jul 2012"
+Date "6 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -295,7 +295,9 @@ U 1 1 4FB1EF10
 P 1950 2000
 F 0 "J1" H 2050 2400 50  0000 C CNN
 F 1 "USBPCB" H 2050 1900 50  0000 C CNN
-F 2 "SparkFun-USB-A-PCB" H 2050 1800 50  0001 C CNN
+F 2 "USB-A-SMD" H 2050 1800 50  0001 C CNN
+F 4 "1001-011-01101" H 1950 2000 60  0001 C CNN "Part"
+F 5 "http://www.digikey.com/scripts/DkSearch/dksus.dll?wt.z_header=search_go&lang=en&keywords=1175-1008-nd&cur=USD" H 1950 2000 60  0001 C CNN "URL"
 	1    1950 2000
 	0    1    -1   0   
 $EndComp
